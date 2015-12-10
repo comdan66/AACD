@@ -650,6 +650,7 @@ h2.active {
         text-indent:-9999px;
         background-image:url(../images/icon.png);
         background-repeat:no-repeat;
+        background-size: 100%;
     }
 
 
