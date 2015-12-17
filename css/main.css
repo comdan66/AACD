@@ -136,7 +136,7 @@ p.BTN a:hover{
 }
 
 #CB .CCBD .BB .BBC .BBT {
-    margin-top:15px; 
+    margin-top:15px;
     width: 100%;
     height: 40px;
     background-color: #c9d9e9;
@@ -303,7 +303,7 @@ p.PBTR {
 }
 
 p.PBTL {
-    display: block;
+    display:inline-block;
     width: 50%;
     float: left;
     font-size: 13px;
@@ -412,7 +412,6 @@ h2.active {
 
 
 #uptop {
-    border: 1px solid rgba(255, 0, 0, .3);
     position: fixed;
     bottom: 10px;
     right: 10px;
@@ -422,7 +421,39 @@ h2.active {
     font-size: 45px;
     line-height: 42px;
     border-radius: 50%;
-    background-color: #F88085;
+    background-color: rgba(112, 22, 29, 1);
+    color: #FFFFFF;
+    text-align: center;
+    cursor: pointer;
+}
+
+#uptopt {
+    position: fixed;
+    bottom: 10px;
+    right: 70px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    font-size: 13px;
+    line-height: 48px;
+    border-radius: 50%;
+    background-color: rgba(112, 22, 29, 1);
+    color: #FFFFFF;
+    text-align: center;
+    cursor: pointer;
+}
+
+#uptoptt {
+    position: fixed;
+    bottom: 10px;
+    right: 130px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    font-size: 13px;
+    line-height: 47px;
+    border-radius: 50%;
+    background-color: rgba(112, 22, 29, 1);
     color: #FFFFFF;
     text-align: center;
     cursor: pointer;
@@ -433,7 +464,7 @@ h2.active {
     margin-bottom: 40px;
 }
 
-@media screen and (max-width:768px) { 
+@media screen and (max-width:768px) {
 
     html body {
       font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
@@ -571,7 +602,7 @@ h2.active {
     }
 
     #CB .CCBD .BB .BBC .BBT {
-        margin-top:15px; 
+        margin-top:15px;
         width: 97%;
         height: 40px;
         background-color: #c9d9e9;
@@ -743,7 +774,7 @@ h2.active {
     }
 
     p.PBTL {
-        display: block;
+        display:inline-block;
         width: 100%;
         float: left;
         font-size: 1.2em;
